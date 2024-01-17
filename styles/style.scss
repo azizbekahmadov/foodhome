@@ -16,8 +16,7 @@ button {
 
 .container {
     width: 100%;
-    max-width: 1440px;
-    padding: 20px 0;
+    // padding: 20px 0;
     margin: auto;
     position: relative;
 }
@@ -26,7 +25,10 @@ button {
 nav {
     display: flex;
     justify-content: space-between;
-
+    width: 100%;
+    max-width: 1440px;
+    padding: 20px 0;
+    margin: auto;
     .icon-and-words-item {
         display: flex;
         align-items: center;
@@ -86,7 +88,10 @@ nav {
 .medium-body {
     justify-content: space-between;
     display: flex;
-
+    width: 100%;
+    max-width: 1440px;
+    padding: 20px 0;
+    margin: auto;
     .words-box-medium {
         margin-top: 190px;
 
@@ -429,6 +434,10 @@ nav {
         /* 76.8% */
     }
 
+    .big-p{
+        width: 748px;
+        margin: 0 auto;
+    }
     .katta-p {
         color: #150C01;
         text-align: center;
@@ -551,13 +560,14 @@ nav {
 
 // footer
 .footer {
-    width: 1440px;
+    width: 100%;
     height: 429px;
     align-items: flex-start;
     background: #150C01;
     justify-content: space-between;
     margin-top: 60px;
-
+    margin: 0 auto;
+    margin-top: 60px;
     .qutilar {
         display: flex;
         gap: 13rem;
