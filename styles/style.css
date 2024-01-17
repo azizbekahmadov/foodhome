@@ -502,9 +502,7 @@ nav .navbar-btn:hover {
   display: flex;
   gap: 13rem;
   align-items: center;
-}
-.footer .quti_1 {
-  margin-left: 150px;
+  justify-content: center;
 }
 .footer .quti_1 img {
   margin-top: 137px;
